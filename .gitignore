@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER push to GitHub)
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+.next/
+out/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
