@@ -20,7 +20,7 @@ export default function VaultPage() {
     const [isBurning, setIsBurning] = useState(false);
     const [copied, setCopied] = useState(false);
 
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
     // 1. Initial bot-safe status check on page load
     useEffect(() => {
